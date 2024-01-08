@@ -1,0 +1,92 @@
+.header {
+    
+    height: 600px;
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+
+.left-section {
+    position: absolute;
+    flex: 1;
+    display: flex;
+    margin-left: 5px;
+}
+
+.netflix-logo {
+    position: relative;
+    height: 55px;
+    z-index: 2;
+}
+
+.right-section {
+    top: 4%;
+    left: 1460px;
+    position: absolute;
+    width: 55px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    position: fixed;
+    height: 45px;
+    border: none;
+    z-index: 2;
+}
+
+.moneyheist-main {
+    position: absolute;
+}
+
+.moneyheist-title {
+    position: absolute;
+    white-space: nowrap;
+    top: 100px;
+    left: 10px;
+    font-size: 3em;
+}
+
+.moneyheist-play {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: 200px;
+    left: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(240, 240, 240);
+    border: none;
+}
+
+.moneyheist-mylist {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: 200px;
+    left: 140px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(240, 240, 240);
+    border: none;
+}
+
+.moneyheist-description {
+    position: absolute;
+    white-space: nowrap;
+    top: 230px;
+    left: 10px;
+    font-size: 14px;
+}
+
+.title {
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

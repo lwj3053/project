@@ -1,0 +1,81 @@
+.popular-contents-container {
+    display: flex;
+    column-gap: 15px;
+    width: 1490px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.popular-contents-container img {
+    max-width: 100%;
+    display: block;
+}
+
+.documentary-container {
+    display: flex;
+    column-gap: 15px;
+    width: 1490px;
+    margin-left: 10px;
+}
+
+.documentary-container img {
+    max-width: 100%;
+    display: block;
+}
+
+.popular-contents-DP:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    z-index: 2;
+}
+
+.popular-contents-경성크리처:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    z-index: 2;
+}
+
+.popular-contents-더글로리:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    z-index: 2;
+}
+
+.popular-contents-솔로지옥:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    z-index: 2;
+}
+
+.popular-contents-정신병동에도아침이와요:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    z-index: 2;
+}
+
+.documentary-베컴:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    z-index: 2;
+}
+
+.documentary-음식이나를만든다:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    z-index: 2;
+}
+.documentary-지구위의생명:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    z-index: 2;
+}
+.documentary-포식자들:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    z-index: 2;
+}
+.documentary-MH370:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    z-index: 2;
+}
